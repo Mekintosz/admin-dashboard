@@ -28,3 +28,19 @@
     grid-template-rows: repeat(3, min(200px, 30%));
     grid-template-columns: repeat(2, max(180px, 50%));
 }
+
+.logopic {
+    height: 1.2em;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+menu {
+    list-style: none;
+}
+
+li>img {
+    height: 1.2rem;
+}
