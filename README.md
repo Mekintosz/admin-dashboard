@@ -1,6 +1,7 @@
 # admin-dashboard
+Project created in collaboration with Odin Project.
+
+Inspired by Odin Project dashboard (propotype in assets).
 
 Credits:
-Animal icons created by Freepik - Flaticon https://www.flaticon.com/free-icons/animal 
-Energy icons created by Freepik - Flaticon https://www.flaticon.com/free-icons/energy 
-Settings icons created by Freepik - Flaticon https://www.flaticon.com/free-icons/settings
+Icons and avatars created by Freepik - Flaticon https://www.flaticon.com/free-icons
