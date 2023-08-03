@@ -6,26 +6,30 @@ p {
 }
 
 .nav-bar {
-    background-color: aqua;
+    background-color: rgb(135, 143, 153);
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     text-justify: center;
+    color: white;
+    z-index: 2;
 }
 
 .header {
-    background-color: grey;
+    background-color: rgb(162, 185, 188);
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 30px;
+    padding: 30px 30px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
 }
 
 .content {
-    background-color: antiquewhite;
+    background-color: #b2ad7f;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    padding: 0 30px;
+    padding: 10px 30px 0;  
 }
 
 .container {
@@ -63,7 +67,7 @@ main {
     grid-template-rows: repeat(3, min(250px));
     grid-template-columns: repeat(2, max(180px, 50%));
     gap: 20px;
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 20px 12px;
     margin: 0 10px 10px 10px;
 }
 
@@ -80,12 +84,22 @@ main {
     /* overflow: hidden; */
     text-overflow: ellipsis;
     /* resize: both; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-left: 8px solid rgb(107, 91, 149);
 }
 
 p, h1, h2, h3, h4 {
     margin: 0.2em 0;
 }
 
+.member h4 {
+    font-size: 20px;
+    padding: 0.1em;
+}
 .side {
     display: flex;
     flex-direction: column;
@@ -113,7 +127,6 @@ menu {
 
 li {
     font-size: 24px;
-    font-weight: 500;
     padding: 10px 0;
     display: flex;
     align-items:center;
@@ -129,7 +142,7 @@ li .icon {
 }
 
 .admin-container .avatar {
-    height: 4em;
+    height: 5em;
     padding: 0 20px 0 40px;
 }
 
@@ -238,12 +251,12 @@ margin: 0;
 /* CSS */
 .button {
   appearance: none;
-  background-color: #2ea44f;
+  background-color: rgb(107, 91, 149);
   border: 1px solid rgba(27, 31, 35, .15);
   border-radius: 6px;
   box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
   box-sizing: border-box;
-  color: black;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -266,7 +279,7 @@ margin: 0;
 }
 
 .button:hover {
-  background-color: #2c974b;
+  background-color: rgb(95, 80, 133);
 }
 
 .button:focus {
